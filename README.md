@@ -1,2 +1,2 @@
-# MAC-estimator-for-long-memory-processes
-a comparison between the Durbin-Mariano statistic and the MAC estimator for long memory processes
+As argued notably by Kruse et al. (2016): "Comparing Predictive Accuracy under Long Memory - With an Application to Volatility Forecasting", long memory can be transmitted into loss differentials in the Durbin-Mariano statistics, possibly causing a severe bias.
+This piece of code calculates both the values of the Diebold-Mariano statistic and the memory and autocorrelation consistent (MAC) estimator. This estimator is asymptotically valid even for long-memory processes.
